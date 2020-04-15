@@ -17,3 +17,5 @@
  (max lon ranges are -130.4 to-115.8 W, and lat ranges 30.25 to 50.0 N)
 
  The OUTPUT variables are formatted like the fields of TUV structs from HFRprogs
+
+Wrapper for Tom Cook's code, written by Brian Emery and Chris Gotschalk
