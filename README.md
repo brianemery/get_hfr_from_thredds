@@ -19,3 +19,17 @@
  The OUTPUT variables are formatted like the fields of TUV structs from HFRprogs
 
 Wrapper for Tom Cook's code, written by Brian Emery and Chris Gotschalk
+
+## How it works
+```
+% Define a min and max time range
+t_min = datenum(2012,9,11,0,0,0);
+t_max = datenum(2012,9,11,2,0,0); %2
+
+% Define a Longitude range and latitude range
+b_lon = [-120.6 -119.2];
+b_lat = [34 34.6];
+
+% Get the data
+[U,V,GDOP,gridd,mtime] = get_hfr_from_thredds(t_min,t_max,b_lon,b_lat);
+```
