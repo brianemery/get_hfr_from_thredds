@@ -98,7 +98,6 @@ end
 
 
 function test_case
-% uncomment for testing ------------------------------
 
 %provide time and space boundaries
 t_min = datenum(2012,9,11,0,0,0);
