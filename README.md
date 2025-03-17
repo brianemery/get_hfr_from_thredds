@@ -1,7 +1,7 @@
 # HFR Thredds Data Reader
 
  This function harvests hourly HFR data from the OPENDAP sever located here:
- http://hfrnet.ucsd.edu/thredds/HFRADAR_USWC_hourly_RTV.html/
+ [[http://hfrnet.ucsd.edu/thredds/](https://hfrnet-tds.ucsd.edu/thredds/catalog.html)
  and outputs velocity components, error estimates, grid point locations, and
  time in a format identical to that provided by get_total_data.m 
  (except for the addition of GDOP)
